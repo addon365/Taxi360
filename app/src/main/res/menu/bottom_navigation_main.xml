@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_normal"
+        android:enabled="true"
+        android:icon="@drawable/ic_booking_white"
+        android:title="@string/text_booking"
+         />
+    <item
+        android:id="@+id/action_voice"
+        android:enabled="true"
+        android:icon="@drawable/ic_voice_white"
+        android:title="@string/text_voice"
+       />
+    <item
+        android:id="@+id/action_quick"
+        android:enabled="true"
+        android:icon="@drawable/ic_urgent_white"
+        android:title="@string/text_quick"
+         />
+</menu>
